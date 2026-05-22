@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" nom="Info_Tech" xsi:noNamespaceSchemaLocation="club.xsd">
+  <!-- ═══ CATÉGORIES ═══ -->
+  <categories>
+    <categorie id="C1" libelle="Intelligence Artificielle"/>
+    <categorie id="C2" libelle="Développement Web"/>
+    <categorie id="C3" libelle="Sécurité Informatique"/>
+    <categorie id="C4" libelle="Réseaux et Systèmes"/>
+  </categories>
+  <!-- ═══ MEMBRES ═══ -->
+  <membres>
+    <!-- Catégorie C1 : Intelligence Artificielle -->
+    <membre id="M001" categorieRef="C1">
+      <nom>Benali</nom>
+      <prenom>Ahmed</prenom>
+      <email>a.benali@club.dz</email>
+    </membre>
+    <membre id="M002" categorieRef="C1">
+      <nom>Mansouri</nom>
+      <prenom>Riad</prenom>
+      <email>r.mansouri@club.dz</email>
+    </membre>
+    <membre id="M003" categorieRef="C1">
+      <nom>Zouaoui</nom>
+      <prenom>Nadia</prenom>
+      <email>n.zouaoui@club.dz</email>
+    </membre>
+    <!-- Catégorie C2 : Développement Web -->
+    <membre id="M004" categorieRef="C2">
+      <nom>Khelif</nom>
+      <prenom>Sara</prenom>
+      <email>s.khelif@club.dz</email>
+    </membre>
+    <membre id="M005" categorieRef="C2">
+      <nom>Boudjelal</nom>
+      <prenom>Karim</prenom>
+      <email>k.boudjelal@club.dz</email>
+    </membre>
+    <membre id="M006" categorieRef="C2">
+      <nom>Ammari</nom>
+      <prenom>Lina</prenom>
+      <email>l.ammari@club.dz</email>
+    </membre>
+    <!-- Catégorie C3 : Sécurité Informatique -->
+    <membre id="M007" categorieRef="C3">
+      <nom>Zerrouk</nom>
+      <prenom>Yassine</prenom>
+      <email>y.zerrouk@club.dz</email>
+    </membre>
+    <membre id="M008" categorieRef="C3">
+      <nom>Hadj</nom>
+      <prenom>Amira</prenom>
+      <email>a.hadj@club.dz</email>
+    </membre>
+    <membre id="M009" categorieRef="C3">
+      <nom>Belkacem</nom>
+      <prenom>Omar</prenom>
+      <email>o.belkacem@club.dz</email>
+    </membre>
+    <!-- Catégorie C4 : Réseaux et Systèmes -->
+    <membre id="M010" categorieRef="C4">
+      <nom>Ouled</nom>
+      <prenom>Fatima</prenom>
+      <email>f.ouled@club.dz</email>
+    </membre>
+    <membre id="M011" categorieRef="C4">
+      <nom>Djebbar</nom>
+      <prenom>Sofiane</prenom>
+      <email>s.djebbar@club.dz</email>
+    </membre>
+    <membre id="M012" categorieRef="C4">
+      <nom>Bensalem</nom>
+      <prenom>Houda</prenom>
+      <email>h.bensalem@club.dz</email>
+    </membre>
+    <membre id="M013" categorieRef="C1">
+      <nom>saadallah</nom>
+      <prenom>chouaib</prenom>
+      <email>chouaisaadallah@gmail.com</email>
+    </membre>
+  </membres>
+  <!-- ═══ CONCOURS ═══ -->
+  <concours>
+    <!-- Concours C1 : Intelligence Artificielle -->
+    <concours id="CO1" categorieRef="C1" date="2025-03-15" coefficient="1.5">
+      <titre>Concours IA — Printemps 2025</titre>
+      <participants>
+        <participant membreRef="M001">
+          <complexite>85</complexite>
+          <!-- score algo /100 -->
+          <tempsExecution>120</tempsExecution>
+          <!-- ms — score = (85+120)×1.5 = 307.5 -->
+        </participant>
+        <participant membreRef="M002">
+          <complexite>72</complexite>
+          <tempsExecution>95</tempsExecution>
+          <!-- score = (72+95)×1.5 = 250.5 -->
+        </participant>
+        <participant membreRef="M003">
+          <complexite>90</complexite>
+          <tempsExecution>110</tempsExecution>
+          <!-- score = (90+110)×1.5 = 300.0 -->
+        </participant>
+        <participant membreRef="M006">
+          <complexite>44</complexite>
+          <tempsExecution>4</tempsExecution>
+        </participant>
+        <participant membreRef="M012">
+          <complexite>12</complexite>
+          <tempsExecution>3</tempsExecution>
+        </participant>
+        <participant membreRef="M004">
+          <complexite>99</complexite>
+          <tempsExecution>1</tempsExecution>
+        </participant>
+        <participant membreRef="M009">
+          <complexite>44</complexite>
+          <tempsExecution>507</tempsExecution>
+        </participant>
+      </participants>
+    </concours>
+    <!-- Concours C2 : Développement Web -->
+    <concours id="CO2" categorieRef="C2" date="2025-04-20" coefficient="1.2">
+      <titre>Hackathon Web — Avril 2025</titre>
+      <participants>
+        <participant membreRef="M004">
+          <complexite>78</complexite>
+          <tempsExecution>200</tempsExecution>
+          <!-- score = (78+200)×1.2 = 333.6 -->
+        </participant>
+        <participant membreRef="M005">
+          <complexite>65</complexite>
+          <tempsExecution>180</tempsExecution>
+          <!-- score = (65+180)×1.2 = 294.0 -->
+        </participant>
+        <participant membreRef="M006">
+          <complexite>88</complexite>
+          <tempsExecution>150</tempsExecution>
+          <!-- score = (88+150)×1.2 = 285.6 -->
+        </participant>
+        <participant membreRef="M003">
+          <complexite>11</complexite>
+          <tempsExecution>12</tempsExecution>
+        </participant>
+      </participants>
+    </concours>
+    <!-- Concours C3 : Sécurité Informatique -->
+    <concours id="CO3" categorieRef="C3" date="2025-05-10" coefficient="2.0">
+      <titre>CTF Sécurité — Mai 2025</titre>
+      <participants>
+        <participant membreRef="M007">
+          <complexite>95</complexite>
+          <tempsExecution>80</tempsExecution>
+          <!-- score = (95+80)×2.0 = 350.0 -->
+        </participant>
+        <participant membreRef="M008">
+          <complexite>80</complexite>
+          <tempsExecution>90</tempsExecution>
+          <!-- score = (80+90)×2.0 = 340.0 -->
+        </participant>
+        <participant membreRef="M009">
+          <complexite>70</complexite>
+          <tempsExecution>100</tempsExecution>
+          <!-- score = (70+100)×2.0 = 340.0 -->
+        </participant>
+        <participant membreRef="M003">
+          <complexite>1</complexite>
+          <tempsExecution>1</tempsExecution>
+        </participant>
+        <participant membreRef="M011">
+          <complexite>11</complexite>
+          <tempsExecution>5</tempsExecution>
+        </participant>
+        <participant membreRef="M012">
+          <complexite>12</complexite>
+          <tempsExecution>12</tempsExecution>
+        </participant>
+        <participant membreRef="M001">
+          <complexite>95</complexite>
+          <tempsExecution>340</tempsExecution>
+        </participant>
+      </participants>
+    </concours>
+    <!-- Concours C4 : Réseaux et Systèmes -->
+    <concours id="CO4" categorieRef="C4" date="2025-06-05" coefficient="1.8">
+      <titre>Challenge Réseaux — Juin 2025</titre>
+      <participants>
+        <participant membreRef="M010">
+          <complexite>60</complexite>
+          <tempsExecution>300</tempsExecution>
+          <!-- score = (60+300)×1.8 = 648.0 -->
+        </participant>
+        <participant membreRef="M011">
+          <complexite>75</complexite>
+          <tempsExecution>250</tempsExecution>
+          <!-- score = (75+250)×1.8 = 585.0 -->
+        </participant>
+        <participant membreRef="M012">
+          <complexite>82</complexite>
+          <tempsExecution>210</tempsExecution>
+          <!-- score = (82+210)×1.8 = 525.6 -->
+        </participant>
+        <participant membreRef="M001">
+          <complexite>5</complexite>
+          <tempsExecution>2</tempsExecution>
+        </participant>
+        <participant membreRef="M008">
+          <complexite>44</complexite>
+          <tempsExecution>6</tempsExecution>
+        </participant>
+        <participant membreRef="M006">
+          <complexite>100</complexite>
+          <tempsExecution>9</tempsExecution>
+        </participant>
+        <participant membreRef="M003">
+          <complexite>70</complexite>
+          <tempsExecution>10000</tempsExecution>
+        </participant>
+        <participant membreRef="M004">
+          <complexite>24</complexite>
+          <tempsExecution>1000</tempsExecution>
+        </participant>
+        <participant membreRef="M013">
+          <complexite>12</complexite>
+          <tempsExecution>12200</tempsExecution>
+        </participant>
+      </participants>
+    </concours>
+  </concours>
+</club>
